@@ -15,7 +15,7 @@ class JenkinsDemoApplicationTests {
     void contextLoads() {
         int total = 10 + 10;
         logger.info("Test is running");
-        Assertions.assertEquals(20, total);
+        Assertions.assertEquals(200, total);
         logger.info("Test is finished" + total);
         logger.info("Test is finished");
     }
